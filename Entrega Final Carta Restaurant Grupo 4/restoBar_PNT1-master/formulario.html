@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='styles.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200&family=Tinos&display=swap" rel="stylesheet">
+</head>
+<body style="background-image: url('images/resizer.jpg')" >
+    
+
+    <section class = "formulario">
+            <h3>Reservá tu mesa</h3>
+            <div class="contenedor"> 
+                <div class="imagen">
+
+                </div>
+
+                <div class="form">
+                    <form target="_self" method="dialog" onsubmit="enviarDatos();">
+                        <div class="form-row">
+                            <input type="date" name="fecha" required>
+                       
+                            <select id="Hora" required>
+                            <option value = "Selecciona la hora">Selecciona la hora</option>
+                            <option value = "20:00">20:00</option>
+                            <option value = "20:30">20:30</option>
+                            <option value = "21:00">21:00</option>
+                            <option value = "21:30">21:30</option> 
+                            <option value = "22:00">22:00</option>
+                            <option value = "22:30">22:30</option>
+                            <option value = "23:00">23:00</option>
+                        </select>
+                        </div>
+                
+                        <div class ="form-row">
+                        <input type="text" name="nombre" id="txtNombre" placeholder="Nombre" >
+                        <input type="text" name="apellido" id="txtApellido" placeholder="Apellido">
+                        </div>
+
+                        <div class ="form-row">
+                            <input type="text" name="telefono" id="txtTelefono" placeholder="Telefono">
+                            
+                            <input type="number" placeholder="Cantidad de personas" min = "1" max="10" required>
+                        </div>
+                        <div class="form-row">   
+                            <input type = "submit" value="Reservar mesa" >
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

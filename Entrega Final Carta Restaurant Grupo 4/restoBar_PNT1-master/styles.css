@@ -1,0 +1,195 @@
+footer  {
+    color: #400101;
+    background: #400101;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+
+h2 {
+    font-family:'Courier New', Courier, monospace;
+    color:blue;
+    margin: 30px; 
+}
+
+body{
+    color: #D96E48;
+   /*background-color: rgb(215, 250, 227);*/
+}
+
+
+.header {
+   background-color: #D96E48;
+}
+
+
+
+.header_img {
+   width: 100%;
+   height: 70%;
+   display: flex; justify-content: center;
+   text-align: center;
+   padding-left: 8%;
+   padding-right: 8%;
+   padding-bottom: 2%;
+
+   /* align-self: center;
+   align-content: center; */
+
+   /* border-top: 5cm;
+   border-bottom: 5cm; */
+}
+
+.categorias{
+    margin: 30px;
+    font-size: 33px;
+    font-family: 'Source Serif Pro', serif;
+    font-family: 'Tinos', serif;
+    text-align: center;
+    background-color: bisque;
+}
+
+
+.titulo{
+   
+   /* margin: 10%;  */
+
+   margin-bottom: 1%;
+   border-radius: 50%;
+   font-size: 50px;
+   font-family: 'Source Serif Pro', serif;
+   font-family: 'Tinos', serif;
+   text-align: center;
+   background-color: indianred;
+}
+
+
+.tarjeta{
+    padding: 20px;
+    margin: 20px;
+    float: right;
+    
+} 
+
+.column {
+   float: left;
+   width: 25%;
+   padding: 0 10px;
+}
+
+.card {
+   padding: 40px;
+   display:inline-block;
+   position:relative;
+  
+}
+
+.precios {
+    /* margin-left: 20cm;
+    margin-top: 20cm;
+    color: black;
+    font-size: 20px;;
+    font-family: 'Source Serif Pro', serif; */
+    display: flex;
+    justify-content: center;
+}
+
+p {
+   text-align: center;
+   display: flex;
+   align-items: center;
+   font-weight: 40px;
+
+}
+
+
+.card > div{
+    padding: 40px;
+    position:absolute;
+    top:25%;
+    left:25%;
+    z-index:-1;
+    margin:0;
+ }
+
+
+
+
+ .imagenes:hover {
+    opacity: 0.07;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+    
+} 
+
+
+
+
+
+ .formulario {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5)), (rgba(0, 0, 0, 0.5)), src ("images/emerson-vieira-3wzps8KbdCQ-unsplash-copia.jpg") center/cover no-repeat; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 40px;
+ }
+
+ .contenedor{
+    display: grid;
+    grid-template-columns:420px 420px;
+ }
+ .imagen{
+    background: url(images/mesaFormulario.jpg) center/cover no-repeat;
+ }
+
+ .formulario h3{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-weight: 1000px;
+ }
+
+ .form{
+    background: #D96E48;
+    height: 300px;
+ }
+
+ .form-row {
+    display: flex;
+    width: 90%;
+    margin:20px;
+ }
+
+ form select, form input {
+    display: block;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 3px;
+ }
+
+#boton{
+   display: flex;
+   color: rgb(255, 255, 255);
+   background-color: black;
+   flex-direction:column;
+   align-items: center;
+   height: 30px;
+   text-align: center;
+   padding: 2px;
+   margin: 30px;
+   font-size: large;
+   border-radius: 5px;
+   font-family:'Source Serif Pro', serif;
+   font-weight:bold;
+
+}
